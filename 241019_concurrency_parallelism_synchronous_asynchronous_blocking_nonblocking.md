@@ -1,6 +1,8 @@
 # 동시성과 병렬성의 이해: 동기, 비동기, 블로킹, 논블로킹의 개념
 
-프로그램의 효율성과 응답성을 극대화하기 위해 **동시성(Concurrency)**과 **병렬성(Parallelism)**은 필수적인 개념입니다. 이전 포스팅에서는 동시성과 병렬성의 기본 개념과 이를 구현하는 대표적인 방법인 **멀티스레딩(Multithreading)**과 **멀티프로세싱(Multiprocessing)**에 대해 알아보았습니다. 이번 포스팅에서는 동시성 문제를 더욱 깊이 있게 이해하기 위해 **동기(Synchronous)**, **비동기(Asynchronous)**, **블로킹(Blocking)**, **논블로킹(Non-Blocking)**의 개념이 동시성과 어떻게 연결되는지 살펴보겠습니다.
+안녕하세요. yeTi입니다.
+
+프로그램의 효율성과 응답성을 극대화하기 위해 **동시성(Concurrency)**과 **병렬성(Parallelism)**은 필수적인 개념입니다. [이전 포스팅](https://yeti.tistory.com/379)에서는 동시성과 병렬성의 기본 개념과 이를 구현하는 대표적인 방법인 **멀티스레딩(Multithreading)**과 **멀티프로세싱(Multiprocessing)**에 대해 알아보았습니다. 이번 포스팅에서는 동시성 문제를 더욱 깊이 있게 이해하기 위해 **동기(Synchronous)**, **비동기(Asynchronous)**, **블로킹(Blocking)**, **논블로킹(Non-Blocking)**의 개념이 동시성과 어떻게 연결되는지 살펴보겠습니다.
 
 ## 동시성에서의 동기와 비동기
 
@@ -118,7 +120,7 @@ asyncio.run(main())
 
 ## 결론
 
-동시성은 현대 소프트웨어 개발에서 필수적인 개념으로, 이를 효과적으로 구현하기 위해서는 **동기(Synchronous)**, **비동기(Asynchronous)**, **블로킹(Blocking)**, **논블로킹(Non-Blocking)**의 개념을 명확히 이해하고 적절히 활용하는 것이 중요합니다. 멀티스레딩과 멀티프로세싱과 같은 병렬성 기법과 함께 이러한 동기화 개념을 결합하면, 성능과 효율성을 극대화할 수 있는 고성능 애플리케이션을 개발할 수 있습니다.
+동시성은 현대 소프트웨어 개발에서 필수적인 개념으로, 이를 효과적으로 구현하기 위해서는 **동기(Synchronous)**, **비동기(Asynchronous)**, **블로킹(Blocking)**, **논블로킹(Non-Blocking)** 의 개념을 명확히 이해하고 적절히 활용하는 것이 중요합니다. 멀티스레딩과 멀티프로세싱과 같은 병렬성 기법과 함께 이러한 동기화 개념을 결합하면, 성능과 효율성을 극대화할 수 있는 고성능 애플리케이션을 개발할 수 있습니다.
 
 ---
 
@@ -133,4 +135,6 @@ asyncio.run(main())
 7. [비동기 프로그래밍과 코루틴](https://perfectacle.github.io/2023/07/10/java-virtual-thread-vs-kotlin-coroutine/)
 8. [Concurrency Programming Best Practices](https://f-lab.kr/insight/understanding-concurrency-programming)
 
-```
+## 지난 기록
+
+- [동시성과 병렬성의 이해: 멀티스레딩 vs 멀티프로세싱](https://yeti.tistory.com/379)
