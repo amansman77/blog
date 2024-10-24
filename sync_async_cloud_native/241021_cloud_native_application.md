@@ -158,3 +158,9 @@ CNCF는 클라우드 네이티브 애플리케이션의 보안과 관리를 위�
 6. [Netflix's Microservices Architecture](https://netflixtechblog.com/the-netflix-tech-blog-beyond-the-netflix-api-84c7029a8c56)
 7. [Spotify Engineering: Kubernetes at Spotify](https://engineering.atspotify.com/2020/06/kubernetes-at-spotify/)
 8. [Airbnb's Use of Serverless](https://medium.com/airbnb-engineering/serverless-at-airbnb-3a6d7b1f7d8b)
+
+## 지난 기록
+
+- [동시성과 병렬성의 이해: Context Switching](https://yeti.tistory.com/381)
+- [동시성과 병렬성의 이해: 동기, 비동기, 블로킹, 논블로킹의 개념](https://yeti.tistory.com/380)
+- [동시성과 병렬성의 이해: 멀티스레딩 vs 멀티프로세싱](https://yeti.tistory.com/379)

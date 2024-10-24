@@ -1,5 +1,7 @@
 # 클라우드 네이티브 애플리케이션: 경량 애플리케이션의 중요성과 Context Switching 문제 해결 방안
 
+안녕하세요. yeTi입니다.
+
 클라우드 네이티브 애플리케이션의 발전과 함께, 경량 애플리케이션의 중요성이 점점 더 부각되고 있습니다. 동시에, 높은 동시성을 요구하는 현대 애플리케이션 환경에서는 **컨텍스트 스위칭(Context Switching)** 문제가 중요한 과제로 떠오르고 있습니다. 이번 포스팅에서는 클라우드 네이티브 애플리케이션에서 경량 애플리케이션의 중요성을 살펴보고, 컨텍스트 스위칭 문제가 대두된 원인을 분석하며, 프로그래밍 업계에서 이를 해결하기 위해 취하고 있는 방향을 논의하고자 합니다.
 
 ## 경량 애플리케이션의 중요성
@@ -87,3 +89,10 @@
 6. [Coroutines in Kotlin](https://kotlinlang.org/docs/coroutines-overview.html)
 7. [Rust Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
 8. [Kubernetes Scalability Planning](https://cloud.google.com/kubernetes-engine/docs/concepts/planning-scalability?hl=ko)
+
+## 지난 기록
+
+- [클라우드 네이티브 애플리케이션: 탄생 배경부터 현황까지](https://yeti.tistory.com/382)
+- [동시성과 병렬성의 이해: Context Switching](https://yeti.tistory.com/381)
+- [동시성과 병렬성의 이해: 동기, 비동기, 블로킹, 논블로킹의 개념](https://yeti.tistory.com/380)
+- [동시성과 병렬성의 이해: 멀티스레딩 vs 멀티프로세싱](https://yeti.tistory.com/379)
